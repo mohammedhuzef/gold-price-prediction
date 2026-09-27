@@ -1,0 +1,22 @@
+# Virtual Environments (NEVER push these to GitHub)
+.venv/
+.venv*/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and OS files
+.vscode/*
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# Test scratch scripts
+test_dll.py
+test_import.py
+test_run.py
+test_xgb.py
